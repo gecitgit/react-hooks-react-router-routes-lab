@@ -2,7 +2,44 @@ import React from "react";
 import { actors } from "../data";
 
 function Actors() {
-  return <div>{/*{code here}*/}</div>;
+  return (
+    <div>
+      <h1>Actors Page</h1>
+      <div>
+        <h3>Name: Benedict Cumberbatch</h3>
+        <p>Movies:</p>
+        <ul>
+          <li>Doctor Strange</li>
+          <li>The Imitation Game</li>
+          <li>Black Mass</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Name: Justin Timberlake</h3>
+        <p>Movies:</p>
+        <ul>
+          <li>Trolls</li>
+          <li>Friends with Benefits</li>
+          <li>The Social Network</li>
+        </ul>
+      </div><div>
+        <h3>Name: Anna Kendrick</h3>
+        <p>Movies:</p>
+        <ul>
+          <li>Pitch Perfect</li>
+          <li>Into The Wood</li>
+        </ul>
+      </div><div>
+        <h3>Name: Tom Cruise</h3>
+        <p>Movies:</p>
+        <ul>
+          <li>Jack Reacher: Never Go Back</li>
+          <li>Mission Impossible 4</li>
+          <li>War of the Worlds</li>
+        </ul>
+      </div>
+    </div>
+  )
 }
 
 export default Actors;
